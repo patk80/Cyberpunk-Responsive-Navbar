@@ -25,6 +25,11 @@ body {
 .brand-title a {
     color: #ff124f;
     text-decoration: none;
+    transition: color 0.75s;
+}
+
+.brand-title a:hover {
+    color: #defe47;
 }
 
 .navbar-links {
@@ -40,18 +45,54 @@ body {
     border-radius: 50px;
 }
 
+.navbar-links li:hover {
+    background-color: #120458;
+    transition: all 3s;
+}
+
 .navbar-links li a {
     display: block;
     text-decoration: none;
-    color: #fe75fe;
+    color: #ff00a0;
     padding: 1rem;
-    font-weight: bold;
+    font-weight: lighter;
     letter-spacing: 0.15em;
+    transition: color 0.75s;
 }
 
-.navbar-links li:hover {
-    background-color: #120458;
-    transition: all 0.6s;
+.navbar-links li a:hover {
+    color: #defe47;
+}
+
+#link-1 {
+    animation: 1s fadeIn;
+}
+
+#link-2 {
+    animation: 2s fadeIn;
+}
+
+#link-3 {
+    animation: 3s fadeIn;
+}
+
+#link-4 {
+    animation: 3.5s fadeIn;
+}
+
+/* fade in animation for links */
+@keyframes fadeIn {
+    0% { 
+        opacity: 0; 
+        color: #fe75fe;
+    }    
+    50% { 
+        color: #ffd300;
+    }   
+    100%   { 
+        opacity: 1; 
+        color: #ff00a0;
+    }
 }
 
 .toggle-button {
