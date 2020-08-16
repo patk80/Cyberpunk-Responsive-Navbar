@@ -109,6 +109,21 @@ body {
     background-color: #ff00a0;
     height: 3px;
     width: 35px;
+    transition: all 0.75s;
+}
+
+.bar-1-active {
+    background-color: #defe47;
+    transform: rotate(-45deg) translate(-50%, 50%);
+}
+
+.bar-2-active {
+    opacity: 0;
+}
+
+.bar-3-active {
+    background-color: #defe47;
+    transform: rotate(45deg) translate(-50%, -50%);
 }
 
 @media (max-width: 840px) {
