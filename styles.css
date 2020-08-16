@@ -128,7 +128,7 @@ body {
 
     .toggle-button {
         position: absolute;
-        top: 0.75rem;
+        top: 15px;
         right: 1rem;
         display: flex;
         height: 30px;
