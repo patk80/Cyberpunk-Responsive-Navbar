@@ -96,13 +96,7 @@ body {
 }
 
 .toggle-button {
-    position: absolute;
-    top: 0.75rem;
-    right: 1rem;
-    display: flex;
-    height: 30px;
-    flex-direction: column;
-    justify-content: space-between;
+    display: none;
 }
 
 .bar {
@@ -133,7 +127,13 @@ body {
     }
 
     .toggle-button {
+        position: absolute;
+        top: 0.75rem;
+        right: 1rem;
         display: flex;
+        height: 30px;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .navbar-links {
