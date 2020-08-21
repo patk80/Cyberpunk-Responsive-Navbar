@@ -10,7 +10,8 @@ body {
 
 .navbar {
     display: flex;
-    position: relative;
+    position: fixed;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     background-color: #7a04eb;
@@ -129,7 +130,7 @@ body {
     .toggle-button {
         position: absolute;
         top: 15px;
-        right: 1rem;
+        right: 45px;
         display: flex;
         height: 30px;
         flex-direction: column;
